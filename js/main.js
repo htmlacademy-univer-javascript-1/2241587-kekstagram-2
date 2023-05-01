@@ -1,3 +1,4 @@
+
 function getRandomPositiveInteger (a, b) {
   const lower = Math.ceil(Math.min(Math.abs(a), Math.abs(b)));
   const upper = Math.floor(Math.max(Math.abs(a), Math.abs(b)));
@@ -30,4 +31,5 @@ const createDirections = () => ({
 const directions = Array.from({length: 25}, createDirections);
 
 console.log(directions);
+
 
